@@ -29,11 +29,20 @@ This is a static website with no build process required. To make changes:
 
 ## Deployment
 
-The site can be deployed to any static web hosting service:
+The site is deployed to Firebase Hosting:
+- **Live URL**: https://whats-your-challenge.web.app
+- **Firebase Project**: whats-your-challenge
+- **Deploy Command**: `firebase deploy --only hosting`
+
+To deploy updates:
+1. Make your changes to the HTML/CSS files
+2. Run `firebase deploy --only hosting`
+3. The changes will be live within minutes
+
+Alternative deployment options:
 - GitHub Pages
 - Netlify
 - Vercel
-- Traditional web hosting
 
 ## App Store Requirements
 
